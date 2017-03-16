@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19293DCC1DD2CE8B009CEB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19293DCB1DD2CE8B009CEB55 /* AppDelegate.swift */; };
+		19293DCE1DD2CE8B009CEB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19293DCD1DD2CE8B009CEB55 /* ViewController.swift */; };
+		19293DD11DD2CE8B009CEB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19293DCF1DD2CE8B009CEB55 /* Main.storyboard */; };
+		19293DD31DD2CE8B009CEB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19293DD21DD2CE8B009CEB55 /* Assets.xcassets */; };
+		19293DD61DD2CE8B009CEB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19293DD41DD2CE8B009CEB55 /* LaunchScreen.storyboard */; };
+		195E625C1DD46D5200ECCEF4 /* EncryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E625B1DD46D5200ECCEF4 /* EncryptViewController.swift */; };
+		195E625E1DD46D6300ECCEF4 /* DecryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E625D1DD46D6300ECCEF4 /* DecryptViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19293DC81DD2CE8B009CEB55 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19293DCB1DD2CE8B009CEB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19293DCD1DD2CE8B009CEB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19293DD01DD2CE8B009CEB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19293DD21DD2CE8B009CEB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19293DD51DD2CE8B009CEB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19293DD71DD2CE8B009CEB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195E625B1DD46D5200ECCEF4 /* EncryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptViewController.swift; sourceTree = "<group>"; };
+		195E625D1DD46D6300ECCEF4 /* DecryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecryptViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19293DC51DD2CE8B009CEB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19293DBF1DD2CE8A009CEB55 = {
+			isa = PBXGroup;
+			children = (
+				19293DCA1DD2CE8B009CEB55 /* Crypto */,
+				19293DC91DD2CE8B009CEB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19293DC91DD2CE8B009CEB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19293DC81DD2CE8B009CEB55 /* Crypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19293DCA1DD2CE8B009CEB55 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				19293DCB1DD2CE8B009CEB55 /* AppDelegate.swift */,
+				19293DCD1DD2CE8B009CEB55 /* ViewController.swift */,
+				19293DCF1DD2CE8B009CEB55 /* Main.storyboard */,
+				19293DD21DD2CE8B009CEB55 /* Assets.xcassets */,
+				19293DD41DD2CE8B009CEB55 /* LaunchScreen.storyboard */,
+				19293DD71DD2CE8B009CEB55 /* Info.plist */,
+				195E625B1DD46D5200ECCEF4 /* EncryptViewController.swift */,
+				195E625D1DD46D6300ECCEF4 /* DecryptViewController.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19293DC71DD2CE8B009CEB55 /* Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19293DDA1DD2CE8B009CEB55 /* Build configuration list for PBXNativeTarget "Crypto" */;
+			buildPhases = (
+				19293DC41DD2CE8B009CEB55 /* Sources */,
+				19293DC51DD2CE8B009CEB55 /* Frameworks */,
+				19293DC61DD2CE8B009CEB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypto;
+			productName = Crypto;
+			productReference = 19293DC81DD2CE8B009CEB55 /* Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19293DC01DD2CE8A009CEB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sheshagiri Haniyur";
+				TargetAttributes = {
+					19293DC71DD2CE8B009CEB55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 19293DC31DD2CE8A009CEB55 /* Build configuration list for PBXProject "Crypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19293DBF1DD2CE8A009CEB55;
+			productRefGroup = 19293DC91DD2CE8B009CEB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19293DC71DD2CE8B009CEB55 /* Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19293DC61DD2CE8B009CEB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19293DD61DD2CE8B009CEB55 /* LaunchScreen.storyboard in Resources */,
+				19293DD31DD2CE8B009CEB55 /* Assets.xcassets in Resources */,
+				19293DD11DD2CE8B009CEB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19293DC41DD2CE8B009CEB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E625E1DD46D6300ECCEF4 /* DecryptViewController.swift in Sources */,
+				195E625C1DD46D5200ECCEF4 /* EncryptViewController.swift in Sources */,
+				19293DCE1DD2CE8B009CEB55 /* ViewController.swift in Sources */,
+				19293DCC1DD2CE8B009CEB55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19293DCF1DD2CE8B009CEB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19293DD01DD2CE8B009CEB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19293DD41DD2CE8B009CEB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19293DD51DD2CE8B009CEB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19293DD81DD2CE8B009CEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19293DD91DD2CE8B009CEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19293DDB1DD2CE8B009CEB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavani.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19293DDC1DD2CE8B009CEB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Crypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pavani.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19293DC31DD2CE8A009CEB55 /* Build configuration list for PBXProject "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19293DD81DD2CE8B009CEB55 /* Debug */,
+				19293DD91DD2CE8B009CEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19293DDA1DD2CE8B009CEB55 /* Build configuration list for PBXNativeTarget "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19293DDB1DD2CE8B009CEB55 /* Debug */,
+				19293DDC1DD2CE8B009CEB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19293DC01DD2CE8A009CEB55 /* Project object */;
+}
